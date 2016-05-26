@@ -110,14 +110,14 @@ namespace BefunHighlight
 				case BeGraphDirection.RightLeft:
 					return new BeGraphCalculateOperation()
 					{
-						X = (this.X - 1) % w,
+						X = (this.X + w - 1) % w,
 						Y = this.Y,
 						D = BeGraphDirection.RightLeft_sm,
 					};
 				case BeGraphDirection.RightLeft_sm:
 					return new BeGraphCalculateOperation()
 					{
-						X = (this.X - 1) % w,
+						X = (this.X + w - 1) % w,
 						Y = this.Y,
 						D = BeGraphDirection.RightLeft,
 					};
@@ -125,14 +125,14 @@ namespace BefunHighlight
 					return new BeGraphCalculateOperation()
 					{
 						X = this.X,
-						Y = (this.Y - 1) % h,
+						Y = (this.Y + h - 1) % h,
 						D = BeGraphDirection.BottomTop_sm,
 					};
 				case BeGraphDirection.BottomTop_sm:
 					return new BeGraphCalculateOperation()
 					{
 						X = this.X,
-						Y = (this.Y - 1) % h,
+						Y = (this.Y + h - 1) % h,
 						D = BeGraphDirection.BottomTop,
 					};
 				default:
