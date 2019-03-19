@@ -16,11 +16,6 @@ BefunHighlight can also calculate the graph of all possible ways your program ca
 
 ![](https://raw.githubusercontent.com/Mikescher/BefunUtils/master/README-FILES/BefunExec_ESG_example.png)
 
-Download
-========
-
-You can download the binaries from my website [www.mikescher.com](http://www.mikescher.com/programs/view/BefunUtils)
-
 Set Up
 ======
 
